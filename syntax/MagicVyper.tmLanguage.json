@@ -1607,12 +1607,8 @@
 		"builtin-functions": {
 			"patterns": [
 				{
-					"name": "support.function.builtin.python",
-					"match": "(?x)\n  (?<!\\.) \\b(\n    __import__ | abs | all | any | ascii | bin | callable\n    | chr | compile | copyright | credits | delattr | dir | divmod\n    | enumerate | eval | exec | exit | filter | format | getattr\n    | globals | hasattr | hash | help | hex | id | input\n    | isinstance | issubclass | iter | len | license | locals | map\n    | max | memoryview | min | next | oct | open | ord | pow | print\n    | quit | range | reload | repr | reversed | round\n    | setattr | sorted | sum | vars | zip\n  )\\b\n"
-				},
-				{
-					"name": "variable.legacy.builtin.python",
-					"match": "(?x)\n  (?<!\\.) \\b(\n    file | reduce | intern | raw_input | unicode | cmp | basestring\n    | execfile | long | xrange\n  )\\b\n"
+					"name": "support.function.builtin.vyper",
+					"match": "(?x)\n  (?<!\\.) \\b(\n create_with_code_of | floor | ceil | convert | clear | as_wei_value | as_unitless_number | slice | len | concat | sha3 | keccak256 | method_id | ecrecover | ecadd | ecmul | extract32 | RLPList | send | raw_call | selfdestruct | assert | raw_log | create_with_code_of | blockhash )\\b\n"
 				}
 			]
 		},
