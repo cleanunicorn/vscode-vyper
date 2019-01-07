@@ -2,8 +2,8 @@
     "name": "vscode-vyper",
     "displayName": "Vyper",
     "description": "Vyper (Ethereum) support for VS Code",
-    "version": "0.0.3",
-    "publisher": "p-",
+    "version": "0.0.4",
+    "publisher": "cleanunicorn",
     "keywords": [
         "vyper",
         "ethereum",
@@ -17,7 +17,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/p-/vscode-vyper.git"
+        "url": "https://github.com/cleanunicorn/vscode-vyper.git"
     },
     "activationEvents": [
         "onLanguage:vyper",
